@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLcEYFhjVRyW_8e3KykBsOZTZAPjms4Z70VA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: rgb(236, 92, 92);
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgb(29, 27, 27);
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+   border-bottom: 2px solid #0c0336;
+   font-size: 16px;
+}
+#search-btn {
+    padding: 8px 0 ;
+    width: 25%;
+    background-color:#771313 ;
+    border: none;
+    outline: none;
+    color: rgb(253, 251, 251);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 30px;
+    color: #040308 ;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px ;
+}
+.result button{
+    background-color: transparent;
+    color: #3d16e9;
+    border: none;
+    outline: none;
+    font-size: 28px;
+}
+.result .details {
+    display: flex;
+    gap: 10px ;
+    color: #020205;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+    
+}
+.word-meaning{
+    color: rgb(57, 62, 66);
+}
+.word-example{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    border-left: 5px solid #a693fd;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error{
+    margin-top: 70px;
+    text-align: center;
+}
